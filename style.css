@@ -4,15 +4,26 @@ body::before{
     content:'';
     height: 50px;
 }
-.bg-dark{
-    background-color: #d3dbe4!important
+.bg-menu{
+    background-color:#fdeff9 !important
 }
 
-.bg-secondary{
-    background-color: lightpink! important
+.bg-color{
+    background-color: #ADA996! important
 }
-.bg-primary{
-    background-color: lightskyblue!important
+.bg-caja{
+    background-color: #fdeff9!important
+}
+.bg-seccion{
+    background: #ADA996;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.bg-seccion2{
+  background-color: #F2F2F2;
 }
 #map {
     width: 100%;
